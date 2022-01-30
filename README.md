@@ -1,6 +1,5 @@
 # DatavizPython
 
-Navannan KULA & Raphaëlle JALLAT 
 *Introduction* 
 
 Pour notre projet de DataEngineer Tools nous avons décidé de nous intéresser aux biens immobilier à vendre dans les 10 plus grandes villes de France disponible sur le site particulieraparticulier.fr ([lien](https://www.pap.fr/annonce/vente-maisons-paris-75-g439)) 
@@ -81,11 +80,13 @@ Pour pouvoir avoir accès au dashboard il vaus faut suivre les étapes suivantes
 
 Pour comprendre le programme, nous allons nous intéresser à quatre points qui sont le **scraping**, **la base données Mango/requetes**, **le layout** et **les callbacks/updates**.
 
-**Scrapping** : 
+**scraping**: 
+On uilise BeautifulSoup pour scrapper nos données, par ailleur, BeautifulSoup nous permet de contourner l'erreur 403 qui empêche le scrapping.
+
 
 **MongoDB**: 
 Mango est une base de données NosSQL orientée document. Elle se distingue des bases de données relationnelles par sa flexibilité et ses performances.
-Nous l'avons utilisée ici pour regrouper toutes nos données scrapées dans une collection. De ce fait nous avons pu faire des requêtes sur celles ci afin de pouvoir recuperer/filtrer les données pour les utiliser par la suite.
+Nous l'avons utilisé ici pour regrouper toutes nos données scrapées dans une collection. De ce fait nous avons pu 
 
 **Traitement de données**:
 Cette étape est primordiale pour le bon déroulement du projet, cela se passe directement après les imports et commence avec des *pd.read_csv*.
