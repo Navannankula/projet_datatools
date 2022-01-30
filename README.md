@@ -41,7 +41,7 @@ Pour pouvoir avoir accès au dashboard il vaus faut suivre les étapes suivantes
 
 * Verifiez que les fichiers suivant soit dans le même repertoire : 
 
-* [ ]  `scrappy.py`
+* [ ]  `scrapy.py`
 * [ ]  `app.py`
 
 * Ouvrez votre terminal anaconda et taper la commande suivante : 
@@ -62,7 +62,7 @@ Pour pouvoir avoir accès au dashboard il vaus faut suivre les étapes suivantes
 
 * [ ]  `pip install json`
 
-* Exécutez en premier le fichier scrappy.py afin de pouvoir créer le fichier scrapping.json
+* Exécutez en premier le fichier scrapy.py afin de pouvoir créer le fichier scrapping.json
 
 
 * A partir du Terminal sous VisualStudioCode lancer le script grace à la commande:
@@ -82,7 +82,7 @@ Pour comprendre le programme, nous allons nous intéresser à quatre points qui 
 
 **scraping**: 
 On uilise BeautifulSoup pour scrapper nos données, par ailleur, BeautifulSoup nous permet de contourner l'erreur 403 qui empêche le scrapping.
-Toute la partie scrapping est codé dans le fichier scrappy.py.
+Toute la partie scrapping est codé dans le fichier scrapy.py.
 
 
 **MongoDB**: 
