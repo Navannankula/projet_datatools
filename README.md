@@ -62,13 +62,13 @@ Pour pouvoir avoir accès au dashboard il vaus faut suivre les étapes suivantes
 
 * [ ]  `pip install json`
 
-
+* Exécutez en premier le fichier scrappy.py afin de pouvoir créer le fichier scrapping.json
 
 
 * A partir du Terminal sous VisualStudioCode lancer le script grace à la commande:
 
-* [ ] `python3 main.py` pour Linux
-* [ ] `python main.py`  pour Windows
+* [ ] `python3 app.py` pour Linux
+* [ ] `python app.py`  pour Windows
 
 * A la fin de l'éxécution du script, l'adresse http://127.0.0.1:8050/ est renvoyée. Utilisez cette adresse pour visualiser le DashBoard.
 
