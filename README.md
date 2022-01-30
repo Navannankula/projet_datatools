@@ -107,8 +107,8 @@ Cette partie est l’élément clé pour avoir un dashboard interactif.
 - *update_figure()* prend en argument le nombre d' inputs défini dans le *@app.callback()* qui seront par ailleurs traités dans l’ordre d’apparition dans le callback et retourne le même nombre d'éléments que de outputs défini dans le callback.
 
 Nous avons donc utilisé beaucoup de callback dans notre application pour plusieurs raisons différentes : 
-    - Comme dit précédement pour remplir les différentes pages séléctionnées dans le NavBar (menu) 
-    - Pour pouvoir filtrer en fonction des villes ou des codes postaux 
-    - Pour mettre à jour la séléction des codes postaux en fonction de la ville choisie ( def updatedropdown(seletion_ville) )
-    - Pour update les listes des biens disponibles ou encore les figures intéractives 
+- Comme dit précédement pour remplir les différentes pages séléctionnées dans le NavBar (menu) 
+- Pour pouvoir filtrer en fonction des villes ou des codes postaux 
+- Pour mettre à jour la séléction des codes postaux en fonction de la ville choisie ( def updatedropdown(seletion_ville) )
+- Pour update les listes des biens disponibles ou encore les figures intéractives 
 
