@@ -89,7 +89,6 @@ Mango est une base de données NosSQL orientée document. Elle se distingue des 
 Nous l'avons utilisée ici pour regrouper toutes nos données scrapées dans une collection. De ce fait nous avons pu faire des requêtes sur celles ci afin de pouvoir recuperer/filtrer les données pour les utiliser par la suite.
 
 **Traitement de données**:
-
 Cette étape est primordiale pour le bon déroulement du projet, cela se passe directement après les imports.
 Etant donné que les requetes MangoDB renvoient des curseurs (Un curseur est un type d'iterateur python, pour récupérer l'élément suivant) nous les transformons en liste de dictionnaire grace à la fonction *update_dropdown*. Les manipulations sur les données se font donc sur des sous-listes ou des dataframes (selon se que l'on doit faire). 
 
