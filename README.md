@@ -82,6 +82,7 @@ Pour comprendre le programme, nous allons nous intéresser à quatre points qui 
 
 **scraping**: 
 On uilise BeautifulSoup pour scrapper nos données, par ailleur, BeautifulSoup nous permet de contourner l'erreur 403 qui empêche le scrapping.
+Toute la partie scrapping est codé dans le fichier scrappy.py.
 
 
 **MongoDB**: 
